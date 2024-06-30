@@ -1,0 +1,127 @@
+.footer {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #245b80;
+    color: #fff;
+    padding: 40px 20px;
+    
+  }
+  
+  .content,
+  .information,
+  .legal,
+  .support,
+  .social-media {
+    margin-top: 100px;
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .content ul,
+  .information ul,
+  .legal ul,
+  .support ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content ul li,
+  .information ul li,
+  .legal ul li,
+  .support ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+  }
+  
+  .head h1 {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  
+  .social-media .icons img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-media .icons img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  .copyrights{
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+  }
+  .copyrights img{
+    width: 80px;
+    height: 80px;
+  }
+  .copyrights p{
+    
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .content,
+    .information,
+    .legal,
+    .support,
+    .social-media {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .head h1 {
+      font-size: 24px;
+    }
+  
+    .content ul li,
+    .information ul li,
+    .legal ul li,
+    .support ul li {
+      font-size: 12px;
+    }
+  
+    .social-media .icons img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 20px 10px;
+    }
+  
+    .head h1 {
+      font-size: 20px;
+    }
+  
+    .content ul li,
+    .information ul li,
+    .legal ul li,
+    .support ul li {
+      font-size: 10px;
+    }
+  
+    .social-media .icons img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  

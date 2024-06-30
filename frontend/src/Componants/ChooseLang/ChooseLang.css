@@ -1,0 +1,67 @@
+/* .choose-language{
+    background-color: #faa21a;
+    width: 100%;
+    height: 100vh;
+}
+.choose-language h1{
+    padding-top: 80px;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.cl-container{
+    width: 900px;
+    height: 70%;
+    border-radius: 75px;
+    background-color:#40a1dc;
+    margin-left: 400px;
+
+
+}
+.cl-container p{
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    
+
+}
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.arabic{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.english{
+    background: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.kelma{
+    color: black !important;
+    font-size: 40px !important;
+
+}
+.word{
+    color: black !important;
+    font-size: 40px !important;
+   
+} */

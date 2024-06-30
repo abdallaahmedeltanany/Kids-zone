@@ -1,0 +1,53 @@
+.Canvas-style{
+    width: 500px;
+    height: 300px;
+    transform: scaleX(-1);
+    /* position: relative;
+    left: calc(50% - 390px); */
+    border: 1px dotted black;
+    cursor: crosshair;
+    background:black;
+    border-radius: 25px;
+}
+.camera-view{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+.canvas-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+
+}
+.buttons-style{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    margin-left: 115px;
+    margin-top: 5px;
+    
+    
+}
+.clear-btn{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #7a7a7a ;
+    border-radius: 15px ;
+    outline: none ;
+    background: white ;
+    color: #7a7a7a;
+    cursor: pointer ;
+    font-size: 20px ;
+    font-weight: 500 ;
+}
+.clear-btn:hover{
+    background-color: #626262 ;
+    background: #40a1dc ;
+    color: white ;
+    transition-duration: 0.3s ;
+}

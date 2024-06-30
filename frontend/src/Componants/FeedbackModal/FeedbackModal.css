@@ -1,0 +1,39 @@
+.feedback-modal{
+    /* background-color: #40a1dc; */
+    background-image: url("../Assets/login.png") ;
+    backdrop-filter: blur(10px)!important;
+    background-position: center;
+    width: 80%;
+    height: 50vh;
+    border-radius:50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+}
+.feedback-modal h1{
+    color: white;
+    font-weight: 600;
+}
+.feedback-modal textarea{
+    width: 80%;
+    height: 150px;
+    border-radius:10px;
+    
+    
+}
+.feedback-modal textarea::placeholder{
+    padding-left: 10px;
+}
+.feedback-modal button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    
+}
+.feedback-modal button:hover{
+    background-color: #40a1dc;
+    transition-duration: 0.3s;
+    color: white!important;
+}

@@ -1,0 +1,92 @@
+
+.choose-language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#40a1dc !important;
+    border-radius: 75px !important;
+
+}
+.choose-language p{
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+}
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    padding-top: 40px;
+}
+.arabic{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.english{
+    background: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.kelma{
+    color: black !important;
+    font-size: 40px !important;
+
+}
+.word{
+    color: black !important;
+    font-size: 40px !important;
+}
+@media screen and (max-width: 768px) {
+    .choose-language p {
+        font-size: 40px; /* Adjusted font size for smaller screens */
+    }
+
+    .languages {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally on smaller screens */
+        padding-top: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .arabic, .english {
+        width: 200px; /* Adjusted width for smaller screens */
+        height: 200px; /* Adjusted height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .choose-language p {
+        font-size: 40px; /* Adjusted font size for smaller screens */
+    }
+
+    .arabic, .english {
+        width: 150px; /* Further adjusted width for smaller screens */
+        height: 150px; /* Further adjusted height for smaller screens */
+    }
+    .arabic img, .english img{
+        width: 120px;
+        margin-right: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .kelma, .word {
+        font-size: 30px !important; /* Further adjusted font size for smaller screens */
+    }
+}

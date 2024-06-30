@@ -1,0 +1,85 @@
+/* Base styles for .our-team */
+.our-team {
+    background-image: url('../Assets/Artboard_69.png');
+    margin-top: -10px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Container for team cards */
+  .our-team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 80px;
+    padding-left: 110px;
+  }
+  
+  /* Individual team card styles */
+  .our-team-card {
+    border: none;
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 1px;
+  }
+  
+  /* Team card text */
+  .our-team-card p {
+    font-size: 30px;
+    font-weight: 650;
+    padding-top: 10px;
+    color: white;
+  }
+  
+  /* Team card images */
+  .our-team-card img {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  /* Responsive styles for tablet screens */
+  @media (max-width: 768px) {
+    .our-team-container {
+      grid-template-columns: 1fr 1fr;
+      padding: 60px 20px;
+    }
+  
+    .our-team-card {
+      width: 150px;
+      height: 250px;
+    }
+  
+    .our-team-card p {
+      font-size: 24px;
+    }
+  
+    .our-team-card img {
+      width: 70%;
+    }
+  }
+  
+  /* Responsive styles for mobile screens */
+  @media (max-width: 480px) {
+    .our-team-container {
+      grid-template-columns: 1fr;
+      padding: 40px 10px;
+    }
+  
+    .our-team-card {
+      width: 130px;
+      height: 220px;
+    }
+  
+    .our-team-card p {
+      font-size: 20px;
+    }
+  
+    .our-team-card img {
+      width: 60%;
+    }
+  }
+  

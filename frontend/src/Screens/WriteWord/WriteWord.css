@@ -1,0 +1,20 @@
+.write-word{
+    width: 100%;
+    height: 100vh;
+    background-color: #faa21a;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.write-word h1{
+    color: white;
+    font-weight: 800;
+}
+.Word-Draw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,94 @@
+.arabic-story{
+    height: 90vh;
+    width: 100%;
+    background-image: url("../../Componants/Assets/Artboard_69.png");
+    /* background-color: #faa21a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-form{
+    width: 700px;
+}
+.story-form h1{
+    color: white;
+}
+
+.usernamea{
+    margin: 10px;
+    text-align: right;
+}
+.usernamea::placeholder{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.usernameE{
+    margin: 10px;
+}
+.usernameE::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+.choose-gender{
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+.story-name{
+    text-align: center;
+}
+.story-content{
+    background-color: #faa21a;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.action-btn{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* margin-top: 400px; */
+}
+.story-text{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+.listen{
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.listen img{
+    width: 80%;
+    padding-top: 5px;
+}
+.listen p{
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 5px;
+    color: #40a1dc;
+}
+.audio-remove{
+    display: none;
+}
+.story-audio{
+    margin-right: 300px;
+}

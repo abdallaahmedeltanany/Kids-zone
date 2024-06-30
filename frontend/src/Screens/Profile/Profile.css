@@ -1,0 +1,75 @@
+.profile{
+    background-color: #faa21a;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid black;
+    margin-left: 40px;
+}
+.image img{
+    height: 190px ;
+    width: 190px;
+    border-radius: 50%;
+}
+.email{
+    margin-top: 40px;
+}
+.email h2 {
+    color: white;
+    font-weight:500;
+    
+}
+.email p{
+    color: white;
+    font-size: 24px
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.settings{
+    cursor: pointer;
+}
+.send-feedback{
+    cursor: pointer;    
+}
+.settings img{
+    width: 50px;
+    
+}
+.send-feedback img{
+    width: 50px;
+}
+.settings,.send-feedback p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.name h2{
+    color: white;
+    padding: 0px;
+
+}
+.name p{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    margin-top: -25px;
+
+}

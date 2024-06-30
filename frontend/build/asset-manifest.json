@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7059c18f.css",
+    "main.js": "/static/js/main.2050724d.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/Artboard_58.png": "/static/media/Artboard_58.117dafc497de700951f0.png",
+    "static/media/Artboard_59.png": "/static/media/Artboard_59.865f71c57f61179417ce.png",
+    "static/media/Artboard_63.png": "/static/media/Artboard_63.db5816e4725a6f16c387.png",
+    "static/media/Artboard_60.png": "/static/media/Artboard_60.5c1d4809b93a2c8b92dd.png",
+    "static/media/Artboard_61.png": "/static/media/Artboard_61.5b0196fc3db71008a6ee.png",
+    "static/media/Artboard_69.png": "/static/media/Artboard_69.cec8689c053b1e706dfa.png",
+    "static/media/Artboard_70.png": "/static/media/Artboard_70.26c18f98219e5aa1142a.png",
+    "static/media/login.png": "/static/media/login.662e260cb23751de7b76.png",
+    "static/media/IG.png": "/static/media/IG.9f73ecd84f503590957d.png",
+    "static/media/logo.png": "/static/media/logo.6bb28bc83e19ec605800.png",
+    "static/media/twitter.png": "/static/media/twitter.25333c6b71e7d347c18c.png",
+    "static/media/draw.png": "/static/media/draw.e7294e6a96169d694a5c.png",
+    "static/media/boy.svg": "/static/media/boy.d5ac6a1d130d146c2a8eb7a7c7bb3432.svg",
+    "static/media/sketch.svg": "/static/media/sketch.2f06fd7055140222ac486955b9ded84d.svg",
+    "static/media/text.svg": "/static/media/text.c28180bc98608469bb9a7a4570906d5b.svg",
+    "static/media/feedback.svg": "/static/media/feedback.6deecc26a013d9606f4288a5618c89c6.svg",
+    "static/media/number_blocks.svg": "/static/media/number_blocks.b4fa0f4ff106bc2aca5b47988c9beee9.svg",
+    "static/media/storytelling.svg": "/static/media/storytelling.ab5f80f3f51af9cadf228413218f45b7.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/playVideo.svg": "/static/media/playVideo.39bbb06d3645545cf1010d83167a9d7d.svg",
+    "index.html": "/index.html",
+    "static/media/log-out.svg": "/static/media/log-out.f2272f39b042d75e96bfbe9ba37610d6.svg",
+    "main.7059c18f.css.map": "/static/css/main.7059c18f.css.map",
+    "main.2050724d.js.map": "/static/js/main.2050724d.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7059c18f.css",
+    "static/js/main.2050724d.js"
+  ]
+}
